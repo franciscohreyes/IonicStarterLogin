@@ -1,0 +1,33 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>Sign In</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="container-logo">
+    <img src="">
+  </div>
+  <div class="container-title">
+    <h3>¡Welcome!</h3>
+  </div>
+  <div class="container-form">
+    <ion-item>
+      <ion-label position="stacked">Username/Email</ion-label>
+      <ion-input placeholder="Username/Email"></ion-input>
+    </ion-item>
+    <div class="content-forgot-password">
+      <span routerLink="/forgot-password">Forgot Password?</span>
+    </div>
+    <ion-item>
+      <ion-label position="stacked">Password</ion-label>
+      <ion-input placeholder="********"></ion-input>
+    </ion-item>
+    <ion-button expand="full">Login</ion-button>
+  </div>
+  <div class="container-sign-up">
+    <div class="title-footer-general">
+      <p>Don't have an account? <span routerLink="/register">Create An Account</span></p>
+    </div>
+  </div>
+</ion-content>
